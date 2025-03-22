@@ -1,1 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify- Web player :Music for everyone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style4.css" >
+    <link rel="icon" href="./assests/logo.png">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="Library">
+                <div class="options">
+                    <div class="lib-option nav-option">
+                        <img src="./assests/library_icon.png">
+                        <a href="#"> Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
 
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">It's easy,we'll halp you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcast here</p>
+                        <p class="box-p2">We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <img src="./assests/backward_icon.png">
+                    <img src="./assests/forward_icon.png">
+                </div>
+                <div class="sticky-nav-download">
+                    <button class="badge-nav-option">Explore Premium</button>
+                    <button class="badge-nav-option dark-badge "><i class="fa-regular fa-circle-down"></i>Install App</button>
+                </div>
+                
+            </div>
+
+            <h2>Recently Played</h2>
+            <div class="card-container">
+                <div class="cards">
+                    <img src="./assests/card1img.jpeg" class="card-img">
+                    <p class="card-tittle">TOP-50 Global</p>
+                    <p class="card-info"> your daily update of the most played track</p>
+                </div>
+            </div>
+            
+
+            <h2>Spoify original & exclusive products</h2>
+            <div class="card-container">
+                <div class="cards">
+                    <img src="./assests/card2img.jpeg" class="card-img">
+                    <p class="card-tittle">True</p>
+                    <p class="card-info"> your daily update of the most played track</p>
+                </div>
+            
+
+           
+                <div class="cards">
+                    <img src="./assests/card3img.jpeg" class="card-img">
+                    <p class="card-tittle">TOP-50 Global</p>
+                    <p class="card-info"> your daily update of the most played track</p>
+                </div>
+           
+
+           
+                <div class="cards">
+                    <img src="./assests/card4img.jpeg" class="card-img">
+                    <p class="card-tittle">TOP-50 Global</p>
+                    <p class="card-info"> your daily update of the most played track</p>
+                </div>
+
+                <div class="cards">
+                    <img src="./assests/card2img.jpeg" class="card-img">
+                    <p class="card-tittle">TOP-50 Global</p>
+                    <p class="card-info"> your daily update of the most played track</p>
+                </div>
+            </div>
+
+            <h2>Shows to try</h2>
+            <div class="card-container">
+                <div class="cards">
+                    <img src="./assests/card5img.jpeg" class="card-img">
+                    <p class="card-tittle">TOP-50 Global</p>
+                    <p class="card-info"> your daily update of the most played track</p>
+                </div>
+            </div>
+
+            <h2>Trending on page</h2>
+            <div class="card-container">
+                <div class="cards">
+                    <img src="./assests/card6img.jpeg" class="card-img">
+                    <p class="card-tittle">TOP-50 Global</p>
+                    <p class="card-info"> your daily update of the most played track</p>
+                </div>
+            
+                <div class="cards">
+                    <img src="./assests/card2img.jpeg" class="card-img">
+                    <p class="card-tittle">TOP-50 Global</p>
+                    <p class="card-info"> your daily update of the most played track</p>
+                </div>
+
+                <div class="cards">
+                    <img src="./assests/card2img.jpeg" class="card-img">
+                    <p class="card-tittle">TOP-50 Global</p>
+                    <p class="card-info"> your daily update of the most played track</p>
+                </div>
+
+                <div class="cards">
+                    <img src="./assests/card2img.jpeg" class="card-img">
+                    <p class="card-tittle">TOP-50 Global</p>
+                    <p class="card-info"> your daily update of the most played track</p>
+                </div>
+            </div>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+           
+        </div>
+        
+        <div class="music-player">music-player</div>
+    </div>
+    
+</body>
+</html>
